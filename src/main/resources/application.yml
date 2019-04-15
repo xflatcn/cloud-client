@@ -6,11 +6,11 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://user:123456@localhost:8080/eureka/      #·şÎñ×¢²áÖĞĞÅµØÖ·£¬º¬ÓĞBASICÈÏÖ¤µÄÓÃ»§ÃûºÍÃÜÂë
+      defaultZone: http://user:123456@localhost:8080/eureka/      #æœåŠ¡æ³¨å†Œä¸­ä¿¡åœ°å€ï¼Œå«æœ‰BASICè®¤è¯çš„ç”¨æˆ·åå’Œå¯†ç 
   instance:
-    prefer-ip-address: true         #½«IP×¢²áµ½·şÎñ×¢²áÖĞĞÄ
+    prefer-ip-address: true         #å°†IPæ³¨å†Œåˆ°æœåŠ¡æ³¨å†Œä¸­å¿ƒ
 
-#·Å¿ªËùÓĞ½Úµã
+#æ”¾å¼€æ‰€æœ‰èŠ‚ç‚¹
 management:
   endpoints:
     web:
